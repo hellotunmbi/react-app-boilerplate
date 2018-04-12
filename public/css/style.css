@@ -1,0 +1,105 @@
+html {
+  font-size: 6.25%;
+}
+
+body {
+  background: url('http://res.cloudinary.com/domymi7op/image/upload/v1520633257/background-worldmap_px2lcx.gif') no-repeat center center fixed;
+  font-size: 14rem;
+}
+
+.gap-right {
+  margin-right: 10px;
+}
+
+.channelslist {
+	overflow-y: scroll;
+	height: 500px;
+	top: 0px;
+  bottom: 0;
+  left: 0;
+}
+
+.channelslist a {
+  background-color: #a846a0; !important
+}
+
+.channelslist a#live {
+  background-color: #ff9047; !important
+}
+
+.channelslist a h4 {
+  color: #FFFFFF; !important
+}
+
+.currentChannel {
+  background-color: #ff9047;
+}
+
+.currentChannel:hover {
+  background-color: #bfc0c0;
+}
+
+.channelsearch {
+  overflow-y: scroll;
+	top: 0px;
+  bottom: 0;
+  left: 0;
+}
+
+.box{
+  margin-bottom: 5px;
+  width: inherit;
+}
+
+
+#currentlyPlaying {
+  position: relative;
+  padding-bottom: 66.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+#currentlyPlaying iframe,
+#currentlyPlaying object,
+#currentlyPlaying embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+#currentRadio {
+  position: relative;
+  padding-bottom: 5%;
+  /* display: grid;
+  justify-content: center;
+  align-items: center; */
+}
+
+.radioplayer {
+  margin-top: 30px;
+}
+
+.radiotitle, .radioplayer {
+  padding: 10px 0;
+}
+
+.radiotitle {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+@media only screen and (max-width: 990px) {
+  .channelslist {
+    margin-top: 10px;
+  }
+}
