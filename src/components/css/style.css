@@ -1,0 +1,36 @@
+body {
+    background: url('http://res.cloudinary.com/domymi7op/image/upload/v1520633257/background-worldmap_px2lcx.gif') no-repeat center center fixed;
+  }
+
+  .gap-right {
+    margin-right: 10px;
+  }
+
+  .channelslist {
+      overflow-y: scroll;
+      height: 500px;
+      top: 0px;
+    bottom: 0;
+    left: 0;
+  }
+
+  .currentChannel {
+    background-color: bisque;
+  }
+
+  .currentChannel:hover {
+    background-color: aquamarine;
+  }
+
+  .channelsearch {
+    overflow-y: scroll;
+      top: 0px;
+    bottom: 0;
+    left: 0;
+  }
+
+  .box{
+    margin-bottom: 5px;
+    width: inherit;
+  }
+
